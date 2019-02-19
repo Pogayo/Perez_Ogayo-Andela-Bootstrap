@@ -1,0 +1,37 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: aqua;
+}
+.pink{
+    background-color: pink;
+    height:400px;
+
+}
+.blue{
+    background-color: blue;
+    height:400px;
+}
+li{
+    display:inline
+}
+#header-section{
+    background-image: url("images/bridge.jfif");
+    background-size: 100%;
+}
+#header-text{
+    position:absolute;
+    top:25%;;
+    width:100%;
+    color:white;
+    font-size: 20px;
+
+}
+#learn-more{
+    width:150px;
+    background-color: Transparent;
+    color:white;
+    border-color: white;
+    border-radius:5px;
+    font-size:14px;
+    height:30px;
+}
