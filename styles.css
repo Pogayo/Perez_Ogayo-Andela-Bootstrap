@@ -2,6 +2,10 @@ body{
     font-family: 'Open Sans', sans-serif;
     background-color: aqua;
 }
+a{
+    color:white;
+    text-decoration:none;
+}
 .pink{
     background-color: pink;
     height:400px;
@@ -12,7 +16,9 @@ body{
     height:300px;
 }
 li{
-    display:inline
+    display:inline;
+    font-size:18px;
+    font-color:white;
 }
 #header-section{
     background-image: url("images/bridge.jfif");
@@ -39,8 +45,9 @@ li{
     height:400px;
 
 }
+
 #identity,#awesome-clients{
-    background-color: #FAFAFA;
+    background-color: #F1F1F1;
 }
 .first-client img{
 
@@ -48,12 +55,15 @@ li{
     height:120px;
     border-radius: 50%;
 }
+.first-client{
+    height:175px;
+}
 .speech-bubble-container{
     width:500px;
     height:500px;
     margin-right: 100px;
 }
-.speech-bubble::after {
+.speech-bubble-left::after {
     content: '';
     position: absolute;
     left: 0;
@@ -67,7 +77,21 @@ li{
     margin-top: -13px;
     margin-left: -26px;
 }
-.speech-bubble {
+.speech-bubble-right::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-left-color: white;
+    border-right: 0;
+    border-top: 0;
+    margin-top: -10px;
+    margin-right: -20px;
+}
+.speech-bubble{
     position: relative;
     background:white;
     border-radius: .4em;
