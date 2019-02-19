@@ -96,7 +96,7 @@ button{
     justify-content: center;
     align-items: center;
     height:inherit;
-    width:100%;
+    /*width:100%;*/
 }
 input,textarea{
     width: 400px;
@@ -115,6 +115,7 @@ textarea{
     height:100px;
     color:white;
     font-size:28px;
+
 }
 #footer{
     height:75px;
@@ -129,11 +130,13 @@ textarea{
     display:flex;
     justify-content: center;
     align-items: center;
-
-}hr{
+}
+hr{
      padding:0px;
-     margin:0px;
+     margin-top:-15px;
  }
 #contact-us{
     background-color:#768FC7 ;
+    margin-bottom: 0px;
+
 }
