@@ -9,7 +9,7 @@ body{
 }
 .blue{
     background-color: blue;
-    height:400px;
+    height:300px;
 }
 li{
     display:inline
@@ -34,4 +34,11 @@ li{
     border-radius:5px;
     font-size:14px;
     height:30px;
+}
+#services>div{
+    height:400px;
+
+}
+#identity,#awesome-clients{
+    background-color: #FAFAFA;
 }
